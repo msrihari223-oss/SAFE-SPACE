@@ -105,3 +105,28 @@
 2026-03-13 15:28:58,435  [INFO]  127.0.0.1 - - [13/Mar/2026 15:28:58] "POST /api/predict HTTP/1.1" 200 -
 2026-03-13 15:29:12,366  [INFO]  127.0.0.1 - - [13/Mar/2026 15:29:12] "OPTIONS /api/predict HTTP/1.1" 200 -
 2026-03-13 15:29:12,741  [INFO]  127.0.0.1 - - [13/Mar/2026 15:29:12] "POST /api/predict HTTP/1.1" 200 -
+2026-03-14 10:21:50,070  [INFO]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-14 10:21:50,071  [INFO]  [33mPress CTRL+C to quit[0m
+2026-03-14 10:21:50,073  [INFO]   * Restarting with stat
+2026-03-14 10:21:50,584  [WARNING]   * Debugger is active!
+2026-03-14 10:21:50,588  [INFO]   * Debugger PIN: 149-912-547
+2026-03-14 10:22:15,161  [INFO]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-14 10:22:15,161  [INFO]  [33mPress CTRL+C to quit[0m
+2026-03-14 10:22:15,164  [INFO]   * Restarting with stat
+2026-03-14 10:22:15,855  [WARNING]   * Debugger is active!
+2026-03-14 10:22:15,861  [INFO]   * Debugger PIN: 149-912-547
+2026-03-14 10:22:28,531  [INFO]  127.0.0.1 - - [14/Mar/2026 10:22:28] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-14 10:22:28,836  [INFO]  127.0.0.1 - - [14/Mar/2026 10:22:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-14 10:22:35,336  [INFO]  127.0.0.1 - - [14/Mar/2026 10:22:35] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-14 10:23:31,136  [INFO]  127.0.0.1 - - [14/Mar/2026 10:23:31] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 10:23:55,938  [INFO]  127.0.0.1 - - [14/Mar/2026 10:23:55] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 10:42:44,689  [INFO]  127.0.0.1 - - [14/Mar/2026 10:42:44] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 10:42:44,803  [INFO]  127.0.0.1 - - [14/Mar/2026 10:42:44] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 10:46:57,482  [INFO]  127.0.0.1 - - [14/Mar/2026 10:46:57] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 10:46:57,588  [INFO]  127.0.0.1 - - [14/Mar/2026 10:46:57] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 10:48:14,878  [INFO]  127.0.0.1 - - [14/Mar/2026 10:48:14] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 10:48:14,921  [INFO]  127.0.0.1 - - [14/Mar/2026 10:48:14] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 10:49:20,949  [INFO]  127.0.0.1 - - [14/Mar/2026 10:49:20] "GET /api/health HTTP/1.1" 200 -
+2026-03-14 10:49:21,038  [INFO]  127.0.0.1 - - [14/Mar/2026 10:49:21] "GET /api/health HTTP/1.1" 200 -
