@@ -1,0 +1,107 @@
+2026-03-13 10:07:40,681  [INFO]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-13 10:07:40,682  [INFO]  [33mPress CTRL+C to quit[0m
+2026-03-13 10:07:40,686  [INFO]   * Restarting with stat
+2026-03-13 10:07:41,608  [WARNING]   * Debugger is active!
+2026-03-13 10:07:41,615  [INFO]   * Debugger PIN: 149-912-547
+2026-03-13 10:08:54,508  [INFO]  127.0.0.1 - - [13/Mar/2026 10:08:54] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 10:08:54,604  [INFO]  127.0.0.1 - - [13/Mar/2026 10:08:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 10:10:26,511  [INFO]  127.0.0.1 - - [13/Mar/2026 10:10:26] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 10:10:49,539  [INFO]  127.0.0.1 - - [13/Mar/2026 10:10:49] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:10:50,082  [INFO]  127.0.0.1 - - [13/Mar/2026 10:10:50] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:11:19,773  [INFO]  127.0.0.1 - - [13/Mar/2026 10:11:19] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:11:20,115  [INFO]  127.0.0.1 - - [13/Mar/2026 10:11:20] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:11:36,303  [INFO]  127.0.0.1 - - [13/Mar/2026 10:11:36] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:11:36,656  [INFO]  127.0.0.1 - - [13/Mar/2026 10:11:36] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:12:03,211  [INFO]  127.0.0.1 - - [13/Mar/2026 10:12:03] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:12:03,574  [INFO]  127.0.0.1 - - [13/Mar/2026 10:12:03] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:12:03,786  [INFO]  127.0.0.1 - - [13/Mar/2026 10:12:03] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 10:12:04,079  [INFO]  127.0.0.1 - - [13/Mar/2026 10:12:04] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 10:12:28,473  [INFO]  127.0.0.1 - - [13/Mar/2026 10:12:28] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:12:28,829  [INFO]  127.0.0.1 - - [13/Mar/2026 10:12:28] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:12:44,573  [INFO]  127.0.0.1 - - [13/Mar/2026 10:12:44] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:12:44,918  [INFO]  127.0.0.1 - - [13/Mar/2026 10:12:44] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:18:20,117  [INFO]  127.0.0.1 - - [13/Mar/2026 10:18:20] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 10:18:38,542  [INFO]  127.0.0.1 - - [13/Mar/2026 10:18:38] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:18:40,309  [INFO]  127.0.0.1 - - [13/Mar/2026 10:18:40] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:26:07,099  [INFO]  127.0.0.1 - - [13/Mar/2026 10:26:07] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:26:07,440  [INFO]  127.0.0.1 - - [13/Mar/2026 10:26:07] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:26:45,315  [INFO]  127.0.0.1 - - [13/Mar/2026 10:26:45] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:26:45,705  [INFO]  127.0.0.1 - - [13/Mar/2026 10:26:45] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:27:17,790  [INFO]  127.0.0.1 - - [13/Mar/2026 10:27:17] "OPTIONS /api/batch HTTP/1.1" 200 -
+2026-03-13 10:27:18,132  [INFO]  Batch | total=2 | flagged=0
+2026-03-13 10:27:18,136  [INFO]  127.0.0.1 - - [13/Mar/2026 10:27:18] "POST /api/batch HTTP/1.1" 200 -
+2026-03-13 10:27:40,507  [INFO]  127.0.0.1 - - [13/Mar/2026 10:27:40] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:27:40,835  [INFO]  127.0.0.1 - - [13/Mar/2026 10:27:40] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:27:48,686  [INFO]  127.0.0.1 - - [13/Mar/2026 10:27:48] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:27:49,032  [INFO]  127.0.0.1 - - [13/Mar/2026 10:27:49] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 10:32:03,975  [INFO]  127.0.0.1 - - [13/Mar/2026 10:32:03] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 10:32:04,362  [INFO]  127.0.0.1 - - [13/Mar/2026 10:32:04] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 11:12:32,297  [INFO]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-13 11:12:32,297  [INFO]  [33mPress CTRL+C to quit[0m
+2026-03-13 11:12:32,300  [INFO]   * Restarting with stat
+2026-03-13 11:12:32,943  [WARNING]   * Debugger is active!
+2026-03-13 11:12:32,948  [INFO]   * Debugger PIN: 149-912-547
+2026-03-13 11:12:46,837  [INFO]  127.0.0.1 - - [13/Mar/2026 11:12:46] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 11:12:56,820  [INFO]  127.0.0.1 - - [13/Mar/2026 11:12:56] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 11:12:57,194  [INFO]  127.0.0.1 - - [13/Mar/2026 11:12:57] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 11:15:13,013  [INFO]  127.0.0.1 - - [13/Mar/2026 11:15:13] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 11:17:26,182  [INFO]  127.0.0.1 - - [13/Mar/2026 11:17:26] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 11:17:26,244  [INFO]  127.0.0.1 - - [13/Mar/2026 11:17:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 12:32:48,963  [INFO]  127.0.0.1 - - [13/Mar/2026 12:32:48] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 12:32:50,328  [INFO]  127.0.0.1 - - [13/Mar/2026 12:32:50] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 12:33:45,049  [INFO]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-13 12:33:45,050  [INFO]  [33mPress CTRL+C to quit[0m
+2026-03-13 12:33:45,053  [INFO]   * Restarting with stat
+2026-03-13 12:33:46,119  [WARNING]   * Debugger is active!
+2026-03-13 12:33:46,124  [INFO]   * Debugger PIN: 149-912-547
+2026-03-13 12:34:47,213  [INFO]  127.0.0.1 - - [13/Mar/2026 12:34:47] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 12:34:47,301  [INFO]  127.0.0.1 - - [13/Mar/2026 12:34:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 12:34:50,625  [INFO]  127.0.0.1 - - [13/Mar/2026 12:34:50] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 12:38:10,808  [INFO]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-13 12:38:10,809  [INFO]  [33mPress CTRL+C to quit[0m
+2026-03-13 12:38:10,812  [INFO]   * Restarting with stat
+2026-03-13 12:38:11,667  [WARNING]   * Debugger is active!
+2026-03-13 12:38:11,673  [INFO]   * Debugger PIN: 149-912-547
+2026-03-13 12:41:13,763  [INFO]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-03-13 12:41:13,763  [INFO]  [33mPress CTRL+C to quit[0m
+2026-03-13 12:41:13,766  [INFO]   * Restarting with stat
+2026-03-13 12:41:14,797  [WARNING]   * Debugger is active!
+2026-03-13 12:41:14,807  [INFO]   * Debugger PIN: 149-912-547
+2026-03-13 13:52:30,410  [INFO]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-13 13:52:30,411  [INFO]  [33mPress CTRL+C to quit[0m
+2026-03-13 13:52:30,414  [INFO]   * Restarting with stat
+2026-03-13 13:52:30,903  [WARNING]   * Debugger is active!
+2026-03-13 13:52:30,908  [INFO]   * Debugger PIN: 149-912-547
+2026-03-13 13:52:40,728  [INFO]  127.0.0.1 - - [13/Mar/2026 13:52:40] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 13:52:40,796  [INFO]  127.0.0.1 - - [13/Mar/2026 13:52:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 13:52:56,767  [INFO]  127.0.0.1 - - [13/Mar/2026 13:52:56] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 13:57:29,789  [INFO]  127.0.0.1 - - [13/Mar/2026 13:57:29] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 13:57:29,852  [INFO]  127.0.0.1 - - [13/Mar/2026 13:57:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 13:57:43,391  [INFO]  127.0.0.1 - - [13/Mar/2026 13:57:43] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 13:57:43,477  [INFO]  127.0.0.1 - - [13/Mar/2026 13:57:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 13:58:02,019  [INFO]  127.0.0.1 - - [13/Mar/2026 13:58:02] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 13:58:02,483  [INFO]  127.0.0.1 - - [13/Mar/2026 13:58:02] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 13:58:11,626  [INFO]  127.0.0.1 - - [13/Mar/2026 13:58:11] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 13:58:11,656  [INFO]  127.0.0.1 - - [13/Mar/2026 13:58:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 13:58:30,702  [INFO]  127.0.0.1 - - [13/Mar/2026 13:58:30] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 13:58:30,757  [INFO]  127.0.0.1 - - [13/Mar/2026 13:58:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 13:58:38,924  [INFO]  127.0.0.1 - - [13/Mar/2026 13:58:38] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 13:58:40,494  [INFO]  127.0.0.1 - - [13/Mar/2026 13:58:40] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 13:59:00,633  [INFO]  127.0.0.1 - - [13/Mar/2026 13:59:00] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 13:59:00,715  [INFO]  127.0.0.1 - - [13/Mar/2026 13:59:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 13:59:04,156  [INFO]  127.0.0.1 - - [13/Mar/2026 13:59:04] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 13:59:13,076  [INFO]  127.0.0.1 - - [13/Mar/2026 13:59:13] "GET /api/health HTTP/1.1" 200 -
+2026-03-13 14:03:39,735  [INFO]  127.0.0.1 - - [13/Mar/2026 14:03:39] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-13 14:03:39,850  [INFO]  127.0.0.1 - - [13/Mar/2026 14:03:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-13 14:04:22,905  [INFO]  127.0.0.1 - - [13/Mar/2026 14:04:22] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 14:04:23,230  [INFO]  127.0.0.1 - - [13/Mar/2026 14:04:23] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 15:28:58,151  [INFO]  127.0.0.1 - - [13/Mar/2026 15:28:58] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 15:28:58,435  [INFO]  127.0.0.1 - - [13/Mar/2026 15:28:58] "POST /api/predict HTTP/1.1" 200 -
+2026-03-13 15:29:12,366  [INFO]  127.0.0.1 - - [13/Mar/2026 15:29:12] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-13 15:29:12,741  [INFO]  127.0.0.1 - - [13/Mar/2026 15:29:12] "POST /api/predict HTTP/1.1" 200 -

@@ -1,0 +1,103 @@
+# 🛡️ SafeSpace — Backend (Flask REST API)
+
+## Project Structure
+```
+safespace_backend/
+│
+├── app.py                          ← Entry point — run this
+├── requirements.txt
+├── utils.py                        ← Shared helpers (categories, actions)
+│
+├── model/
+│   ├── loader.py                   ← Loads ML model, demo fallback
+│   ├── cyberbullying_model.pkl     ← ← FROM YOUR ML TEAMMATE
+│   └── vectorizer.pkl              ← ← FROM YOUR ML TEAMMATE
+│
+├── database/
+│   ├── db.py                       ← SQLite setup + helpers
+│   └── safespace.db                ← Auto-created on first run
+│
+├── routes/
+│   ├── predict.py                  ← /api/predict  /api/batch
+│   ├── alerts.py                   ← /api/alerts   /api/alerts/stats
+│   ├── reports.py                  ← /api/reports  /api/reports/submit
+│   └── health.py                   ← /api/health
+│
+├── logs/
+│   └── safespace.log               ← Auto-created
+│
+└── SafeSpace_API.postman_collection.json   ← Import in Postman
+```
+
+---
+
+## ⚡ Setup & Run
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Run server
+python app.py
+
+# Server starts at → http://localhost:5000
+```
+
+---
+
+## 📡 All API Endpoints
+
+| Method | Endpoint                | What it does                        |
+|--------|-------------------------|-------------------------------------|
+| GET    | /api/health             | Server status + model info          |
+| POST   | /api/predict            | Analyze one message                 |
+| POST   | /api/batch              | Analyze up to 50 messages           |
+| GET    | /api/alerts             | Moderator alert feed                |
+| GET    | /api/alerts/stats       | Dashboard counts                    |
+| GET    | /api/alerts/<id>        | Single alert details                |
+| PUT    | /api/alerts/<id>        | Update alert status                 |
+| POST   | /api/reports/submit     | Student submits anonymous report    |
+| GET    | /api/reports            | All submitted reports               |
+| PUT    | /api/reports/<id>       | Update report status                |
+
+---
+
+## 🔌 Plugging in the ML Model
+
+Your ML teammate saves:
+```python
+import joblib
+joblib.dump(trained_model,  "model/cyberbullying_model.pkl")
+joblib.dump(tfidf_vectorizer, "model/vectorizer.pkl")
+```
+
+Model must support:
+- `model.predict([vectorized])` → returns `[0]`, `[1]`, or `[2]`
+- `model.predict_proba([vectorized])` → returns probabilities
+
+If they use different label numbers, edit in `model/loader.py`:
+```python
+LABEL_MAP = {0: "SAFE", 1: "WARNING", 2: "DANGER"}
+```
+
+**Without model** → runs in DEMO mode (rule-based). Works for demo!
+
+---
+
+## 📬 Postman Testing
+
+1. Open Postman
+2. Click **Import** → select `SafeSpace_API.postman_collection.json`
+3. All 12 requests are pre-configured
+4. Hit **Send** on any request
+
+---
+
+## 🗃️ Database (SQLite)
+
+Auto-created at `database/safespace.db`. Three tables:
+- **predictions** — every analyzed message stored here
+- **alerts** — WARNING/DANGER messages auto-flagged here
+- **reports** — student anonymous submissions
+
+No setup needed. Works out of the box.
