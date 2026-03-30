@@ -130,3 +130,13 @@
 2026-03-14 10:48:14,921  [INFO]  127.0.0.1 - - [14/Mar/2026 10:48:14] "GET /api/health HTTP/1.1" 200 -
 2026-03-14 10:49:20,949  [INFO]  127.0.0.1 - - [14/Mar/2026 10:49:20] "GET /api/health HTTP/1.1" 200 -
 2026-03-14 10:49:21,038  [INFO]  127.0.0.1 - - [14/Mar/2026 10:49:21] "GET /api/health HTTP/1.1" 200 -
+2026-03-30 23:30:52,353  [INFO]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-03-30 23:30:52,355  [INFO]  [33mPress CTRL+C to quit[0m
+2026-03-30 23:30:52,358  [INFO]   * Restarting with stat
+2026-03-30 23:30:53,285  [WARNING]   * Debugger is active!
+2026-03-30 23:30:53,293  [INFO]   * Debugger PIN: 149-912-547
+2026-03-30 23:31:03,021  [INFO]  127.0.0.1 - - [30/Mar/2026 23:31:03] "GET /api/health HTTP/1.1" 200 -
+2026-03-30 23:31:09,307  [INFO]  127.0.0.1 - - [30/Mar/2026 23:31:09] "GET /api/health HTTP/1.1" 200 -
+2026-03-30 23:31:11,897  [INFO]  127.0.0.1 - - [30/Mar/2026 23:31:11] "OPTIONS /api/predict HTTP/1.1" 200 -
+2026-03-30 23:31:13,207  [INFO]  127.0.0.1 - - [30/Mar/2026 23:31:13] "POST /api/predict HTTP/1.1" 200 -
